@@ -1,0 +1,10 @@
+C:\Users\Github\source\repos\Calc v2\Calc v2\bin\Debug\Calc v2.exe.config
+C:\Users\Github\source\repos\Calc v2\Calc v2\bin\Debug\Calc v2.exe
+C:\Users\Github\source\repos\Calc v2\Calc v2\bin\Debug\Calc v2.pdb
+C:\Users\Github\source\repos\Calc v2\Calc v2\obj\Debug\Calc v2.csproj.AssemblyReference.cache
+C:\Users\Github\source\repos\Calc v2\Calc v2\obj\Debug\Calc_v2.Form1.resources
+C:\Users\Github\source\repos\Calc v2\Calc v2\obj\Debug\Calc_v2.Properties.Resources.resources
+C:\Users\Github\source\repos\Calc v2\Calc v2\obj\Debug\Calc v2.csproj.GenerateResource.cache
+C:\Users\Github\source\repos\Calc v2\Calc v2\obj\Debug\Calc v2.csproj.CoreCompileInputs.cache
+C:\Users\Github\source\repos\Calc v2\Calc v2\obj\Debug\Calc v2.exe
+C:\Users\Github\source\repos\Calc v2\Calc v2\obj\Debug\Calc v2.pdb
