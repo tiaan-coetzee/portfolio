@@ -15,7 +15,8 @@ namespace Calc_v2
         // Variable declaration
         string ActiveNumber = "";
         int BackGroundCalc = 0;
-        int Positive = 1;
+        int Operation = 0; /// 0 = Plus, 1 = Minus
+      
 
         // Form Initialization
         public Form1()
@@ -24,14 +25,25 @@ namespace Calc_v2
         }
 
         // Functions
-        public void TestVariable()
-        {
-            MessageBox.Show(ActiveNumber);
-        }
 
         public void Print()
         {
             LabelDisplay.Text = ActiveNumber;
+        }
+
+        public void Calculate()
+        {
+
+            if (Operation == 0)
+            {
+                BackGroundCalc += Int32.Parse(ActiveNumber);
+            }
+
+            else if (Operation == 1)
+            {
+                BackGroundCalc -= Int32.Parse(ActiveNumber);
+            }
+
         }
 
 
@@ -124,6 +136,7 @@ namespace Calc_v2
             BackGroundCalc = 0;
             Print();
             LabelRunningTotal.Text = BackGroundCalc.ToString();
+            Operation = 0;
         }
 
         // Math operations buttons
@@ -132,7 +145,8 @@ namespace Calc_v2
         {
             try
             {
-                BackGroundCalc += Int32.Parse(ActiveNumber);
+                Operation = 0;
+                Calculate();
                 ActiveNumber = "";
                 Print();
             }
@@ -148,7 +162,7 @@ namespace Calc_v2
         {
             try
             {
-                if (Positive == 1)
+                if (Operation == 0)
                 {
                     BackGroundCalc += Int32.Parse(ActiveNumber);
                     ActiveNumber = "";
@@ -156,16 +170,13 @@ namespace Calc_v2
                     LabelRunningTotal.Text = BackGroundCalc.ToString();
                 }
 
-                if (Positive == 0)
+                else if (Operation == 1) 
                 {
                     BackGroundCalc -= Int32.Parse(ActiveNumber);
                     ActiveNumber = "";
                     Print();
                     LabelRunningTotal.Text = BackGroundCalc.ToString();
-                    Positive = 1;
-
                 }
-
 
             }
 
@@ -179,21 +190,27 @@ namespace Calc_v2
         {
             try
             {
-                BackGroundCalc -= Int32.Parse(ActiveNumber);
+                Calculate();
+                Operation = 1;
                 ActiveNumber = "";
                 Print();
-                Positive = 0;
                 
             }
 
             catch
             {
-                Positive = 0;
+                ActiveNumber = "-";
+                Print();
             }
 
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
         {
 
         }

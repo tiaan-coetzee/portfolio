@@ -40,19 +40,20 @@
             this.Num0 = new System.Windows.Forms.Button();
             this.CntrDel = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.LabelRunningTotal = new System.Windows.Forms.Label();
             this.LabelDisplay = new System.Windows.Forms.Label();
             this.CntrClear = new System.Windows.Forms.Button();
             this.OpPlus = new System.Windows.Forms.Button();
             this.OpEqual = new System.Windows.Forms.Button();
             this.OpMinus = new System.Windows.Forms.Button();
-            this.LabelRunningTotal = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Num1
             // 
             this.Num1.BackColor = System.Drawing.SystemColors.GrayText;
-            this.Num1.Location = new System.Drawing.Point(298, 148);
+            this.Num1.Location = new System.Drawing.Point(18, 109);
             this.Num1.Name = "Num1";
             this.Num1.Size = new System.Drawing.Size(70, 50);
             this.Num1.TabIndex = 0;
@@ -63,7 +64,7 @@
             // Num2
             // 
             this.Num2.BackColor = System.Drawing.SystemColors.GrayText;
-            this.Num2.Location = new System.Drawing.Point(374, 148);
+            this.Num2.Location = new System.Drawing.Point(94, 109);
             this.Num2.Name = "Num2";
             this.Num2.Size = new System.Drawing.Size(70, 50);
             this.Num2.TabIndex = 1;
@@ -74,7 +75,7 @@
             // Num3
             // 
             this.Num3.BackColor = System.Drawing.SystemColors.GrayText;
-            this.Num3.Location = new System.Drawing.Point(450, 148);
+            this.Num3.Location = new System.Drawing.Point(170, 109);
             this.Num3.Name = "Num3";
             this.Num3.Size = new System.Drawing.Size(70, 50);
             this.Num3.TabIndex = 2;
@@ -85,7 +86,7 @@
             // Num6
             // 
             this.Num6.BackColor = System.Drawing.SystemColors.GrayText;
-            this.Num6.Location = new System.Drawing.Point(450, 204);
+            this.Num6.Location = new System.Drawing.Point(170, 165);
             this.Num6.Name = "Num6";
             this.Num6.Size = new System.Drawing.Size(70, 50);
             this.Num6.TabIndex = 5;
@@ -96,7 +97,7 @@
             // Num5
             // 
             this.Num5.BackColor = System.Drawing.SystemColors.GrayText;
-            this.Num5.Location = new System.Drawing.Point(374, 204);
+            this.Num5.Location = new System.Drawing.Point(94, 165);
             this.Num5.Name = "Num5";
             this.Num5.Size = new System.Drawing.Size(70, 50);
             this.Num5.TabIndex = 4;
@@ -107,7 +108,7 @@
             // Num4
             // 
             this.Num4.BackColor = System.Drawing.SystemColors.GrayText;
-            this.Num4.Location = new System.Drawing.Point(298, 204);
+            this.Num4.Location = new System.Drawing.Point(18, 165);
             this.Num4.Name = "Num4";
             this.Num4.Size = new System.Drawing.Size(70, 50);
             this.Num4.TabIndex = 3;
@@ -118,7 +119,7 @@
             // Num9
             // 
             this.Num9.BackColor = System.Drawing.SystemColors.GrayText;
-            this.Num9.Location = new System.Drawing.Point(450, 260);
+            this.Num9.Location = new System.Drawing.Point(170, 221);
             this.Num9.Name = "Num9";
             this.Num9.Size = new System.Drawing.Size(70, 50);
             this.Num9.TabIndex = 8;
@@ -129,7 +130,7 @@
             // Num8
             // 
             this.Num8.BackColor = System.Drawing.SystemColors.GrayText;
-            this.Num8.Location = new System.Drawing.Point(374, 260);
+            this.Num8.Location = new System.Drawing.Point(94, 221);
             this.Num8.Name = "Num8";
             this.Num8.Size = new System.Drawing.Size(70, 50);
             this.Num8.TabIndex = 7;
@@ -140,7 +141,7 @@
             // Num7
             // 
             this.Num7.BackColor = System.Drawing.SystemColors.GrayText;
-            this.Num7.Location = new System.Drawing.Point(298, 260);
+            this.Num7.Location = new System.Drawing.Point(18, 221);
             this.Num7.Name = "Num7";
             this.Num7.Size = new System.Drawing.Size(70, 50);
             this.Num7.TabIndex = 6;
@@ -151,7 +152,7 @@
             // Num0
             // 
             this.Num0.BackColor = System.Drawing.SystemColors.GrayText;
-            this.Num0.Location = new System.Drawing.Point(298, 316);
+            this.Num0.Location = new System.Drawing.Point(18, 277);
             this.Num0.Name = "Num0";
             this.Num0.Size = new System.Drawing.Size(146, 50);
             this.Num0.TabIndex = 9;
@@ -162,7 +163,7 @@
             // CntrDel
             // 
             this.CntrDel.BackColor = System.Drawing.SystemColors.GrayText;
-            this.CntrDel.Location = new System.Drawing.Point(450, 316);
+            this.CntrDel.Location = new System.Drawing.Point(170, 277);
             this.CntrDel.Name = "CntrDel";
             this.CntrDel.Size = new System.Drawing.Size(70, 50);
             this.CntrDel.TabIndex = 10;
@@ -175,10 +176,20 @@
             this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.panel1.Controls.Add(this.LabelRunningTotal);
             this.panel1.Controls.Add(this.LabelDisplay);
-            this.panel1.Location = new System.Drawing.Point(298, 51);
+            this.panel1.Location = new System.Drawing.Point(18, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(298, 76);
             this.panel1.TabIndex = 11;
+            // 
+            // LabelRunningTotal
+            // 
+            this.LabelRunningTotal.AutoSize = true;
+            this.LabelRunningTotal.Location = new System.Drawing.Point(22, 52);
+            this.LabelRunningTotal.Name = "LabelRunningTotal";
+            this.LabelRunningTotal.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.LabelRunningTotal.Size = new System.Drawing.Size(13, 13);
+            this.LabelRunningTotal.TabIndex = 16;
+            this.LabelRunningTotal.Text = "0";
             // 
             // LabelDisplay
             // 
@@ -194,7 +205,7 @@
             // 
             this.CntrClear.BackColor = System.Drawing.SystemColors.ControlLight;
             this.CntrClear.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.CntrClear.Location = new System.Drawing.Point(298, 372);
+            this.CntrClear.Location = new System.Drawing.Point(18, 333);
             this.CntrClear.Name = "CntrClear";
             this.CntrClear.Size = new System.Drawing.Size(298, 50);
             this.CntrClear.TabIndex = 12;
@@ -205,7 +216,7 @@
             // OpPlus
             // 
             this.OpPlus.BackColor = System.Drawing.SystemColors.GrayText;
-            this.OpPlus.Location = new System.Drawing.Point(526, 148);
+            this.OpPlus.Location = new System.Drawing.Point(246, 109);
             this.OpPlus.Name = "OpPlus";
             this.OpPlus.Size = new System.Drawing.Size(70, 50);
             this.OpPlus.TabIndex = 13;
@@ -217,7 +228,7 @@
             // OpEqual
             // 
             this.OpEqual.BackColor = System.Drawing.SystemColors.GrayText;
-            this.OpEqual.Location = new System.Drawing.Point(526, 260);
+            this.OpEqual.Location = new System.Drawing.Point(246, 221);
             this.OpEqual.Name = "OpEqual";
             this.OpEqual.Size = new System.Drawing.Size(70, 106);
             this.OpEqual.TabIndex = 14;
@@ -229,7 +240,7 @@
             // OpMinus
             // 
             this.OpMinus.BackColor = System.Drawing.SystemColors.GrayText;
-            this.OpMinus.Location = new System.Drawing.Point(526, 204);
+            this.OpMinus.Location = new System.Drawing.Point(246, 165);
             this.OpMinus.Name = "OpMinus";
             this.OpMinus.Size = new System.Drawing.Size(70, 50);
             this.OpMinus.TabIndex = 15;
@@ -238,21 +249,22 @@
             this.OpMinus.UseVisualStyleBackColor = false;
             this.OpMinus.Click += new System.EventHandler(this.OpMinus_Click);
             // 
-            // LabelRunningTotal
+            // label1
             // 
-            this.LabelRunningTotal.AutoSize = true;
-            this.LabelRunningTotal.Location = new System.Drawing.Point(22, 52);
-            this.LabelRunningTotal.Name = "LabelRunningTotal";
-            this.LabelRunningTotal.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.LabelRunningTotal.Size = new System.Drawing.Size(13, 13);
-            this.LabelRunningTotal.TabIndex = 16;
-            this.LabelRunningTotal.Text = "0";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(71, 392);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(193, 13);
+            this.label1.TabIndex = 16;
+            this.label1.Text = "C# Calculator - Tiaan Coetzee 2023/08";
+            this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(335, 414);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.OpMinus);
             this.Controls.Add(this.OpEqual);
             this.Controls.Add(this.OpPlus);
@@ -270,11 +282,12 @@
             this.Controls.Add(this.Num2);
             this.Controls.Add(this.Num1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "C# Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -298,6 +311,7 @@
         private System.Windows.Forms.Button OpEqual;
         private System.Windows.Forms.Button OpMinus;
         private System.Windows.Forms.Label LabelRunningTotal;
+        private System.Windows.Forms.Label label1;
     }
 }
 
