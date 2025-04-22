@@ -1,7 +1,7 @@
 # Intro
+Hello World!
 
-Hello World! This GitHub page serves primarily as a portofolio showcase for me. I'm currently a 20 year old university student studying Informatics and Economics. 
-
+Welcome to my GitHub, I am a hobby-coder with interests in cybersecurity and software development. This page will primarily serve as a showcase of the projects I have completed up to date. Feel free to look around.
 
 # Contact Me
 Email: tiaan.c@icloud.com
