@@ -10,4 +10,4 @@ Email: tiaan.c@icloud.com
 
 C#:<br>
 [Calculator](https://github.com/tiaan-coetzee/C-Calculator.git) (works to a decent degree, could still be improved a lot)<br>
-[Yahtzee]([https://github.com/tiaan-coetzee/Yahtzee](https://github.com/tiaan-coetzee/Yahtzee/releases/tag/v1.0.0)) (final version - should work on most Windows devices)<br>
+[Yahtzee](https://github.com/tiaan-coetzee/Yahtzee/releases/tag/v1.0.0) (final version - should work on most Windows devices)<br>
