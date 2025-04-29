@@ -8,6 +8,6 @@ Email: tiaan.c@icloud.com
 
 # Project (Thus far)
 
-C#:
-[Calculator](https://github.com/tiaan-coetzee/C-Calculator.git) (works to a decent degree, could still be improved a lot)
-[Yahtzee](https://github.com/tiaan-coetzee/Basic-Yahtzee) (final version - should work on most Windows devices)
+C#:\n
+[Calculator](https://github.com/tiaan-coetzee/C-Calculator.git) (works to a decent degree, could still be improved a lot)\n
+[Yahtzee](https://github.com/tiaan-coetzee/Basic-Yahtzee) (final version - should work on most Windows devices)\n
