@@ -8,7 +8,7 @@ Feel free to explore the repositories below.
 # Contact Me
 Email: tiaan.c@icloud.com
 
-# Project (Thus far)
+# Projects
 
 C#:<br>
 [Calculator](https://github.com/tiaan-coetzee/C-Calculator.git) (currently under development)<br>
